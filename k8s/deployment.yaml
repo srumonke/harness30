@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: app
-          image: <+artifacts.primary.image>
+          image: srumonke/simple-python-ci:0.1.0
           ports:
             - containerPort: 5000
           # Add these health checks
